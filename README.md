@@ -17,7 +17,7 @@ This is the source code of [***HS2P: Hierarchical spectral and structure-preserv
 
 The architecture of *HS2P* is shown as follows.
 
-<div align="center"><img src="./readme_images/network_architecture.png"></div>
+<div align="center"><img src="./read_images/hs2pparchi.png"></div>
 
 
 ## 2. DATASET
@@ -91,7 +91,7 @@ python predict.py
 
 Some results are shown as bellow and Row1-4 of the image are: SAR images, cloudy images, ground truth, the predicted results of HS2P.
 
-<div align="center"><img src="./readme_images/results.png"></div>
+<div align="center"><img src="./read_images/results.png"></div>
 
 
 ## 5. CONTACT
