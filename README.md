@@ -17,7 +17,7 @@ This is the source code of [***HS2P: Hierarchical spectral and structure-preserv
 
 The architecture of *HS2P* is shown as follows.
 
-<div align="center"><img src="./read_images/hs2pparchi.png"></div>
+<div align="center"><img src="./read_images/hs2parchi.png"></div>
 
 
 ## 2. DATASET
