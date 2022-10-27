@@ -29,7 +29,9 @@ You can get more details about this dataset at [here](https://mediatum.ub.tum.de
 Then divide all the patches into three subdatasets, namely, training set, validation set, testing, and write the division in a *.csv* file as:
 
 **label s1 s2 s2_cloudy patch_s2_name**
+
 **label s1 s2 s2_cloudy patch_s2_name**
+
 **...**
 
 Here *label* is a number and 1 represents training set, 2 represents validation set and 3 represents testing set. *patch_s2_name* are the names of cloud-free Sentinel-2 optical images.
