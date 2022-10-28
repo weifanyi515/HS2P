@@ -73,6 +73,10 @@ Then build the file structure in your computer as the folder `dataset` shown.
         |   +-- ...
 ```
 
+The distributions of our training set, validation set and testing set are shown below.
+
+<div align="center"><img src="./read_images/dataset_distributions.png"></div>
+
 
 ## 3. TRAIN
 
