@@ -90,6 +90,7 @@ python main.py
 
 ## 4. TEST
 Set model parameters in config.ini and the config.ini file path in main.py first before the testing phase.
+
 The predict_file parameter must be supplied.
 
 Run:
