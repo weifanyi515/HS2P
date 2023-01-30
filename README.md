@@ -79,18 +79,23 @@ The distributions of our training set, validation set and testing set are shown 
 
 
 ## 3. TRAIN
+Set model parameters in config.ini and the config.ini file path in main.py first before the training phase.
 
 Run:
 
 ```bash
-python train.py
+python main.py
 ```
 
 
 ## 4. TEST
+Set model parameters in config.ini and the config.ini file path in main.py first before the testing phase.
+The predict_file parameter must be supplied.
+
+Run:
 
 ```bash
-python predict.py
+python main.py
 ```
 
 Some results are shown as bellow and Row1-4 of the image are: SAR images, cloudy images, ground truth, the predicted results of HS2P.
