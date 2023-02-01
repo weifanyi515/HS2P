@@ -43,33 +43,33 @@ Then build the file structure in your computer as the folder `dataset` shown.
 +-- Dataset
     +--	s1
         +-- train
-        |   +-- 0.tif
+        |   +-- patch_s1_name.tif
         |   +-- ...
         +-- val
-        |   +-- 0.tif
+        |   +-- patch_s1_name.tif
         |   +-- ...
         +-- test
-        |   +-- 0.tif
+        |   +-- patch_s1_name.tif
         |   +-- ...
      +-- s2
         +-- train
-        |   +-- 0.tif
+        |   +-- patch_s2_name.tif
         |   +-- ...
         +-- val
-        |   +-- 0.tif
+        |   +-- patch_s2_name.tif
         |   +-- ...
         +-- test
-        |   +-- 0.tif
+        |   +-- patch_s2_name.tif
         |   +-- ...
      +-- s2_cloudy
         +-- train
-        |   +-- 0.tif
+        |   +-- patch_s2_cloudy_name.tif
         |   +-- ...
         +-- val
-        |   +-- 0.tif
+        |   +-- patch_s2_cloudy_name.tif
         |   +-- ...
         +-- test
-        |   +-- 0.tif
+        |   +-- patch_s2_cloudy_name.tif
         |   +-- ...
 ```
 
@@ -91,7 +91,7 @@ python main.py
 ## 4. TEST
 Set model parameters in config.ini and the config.ini file path in main.py first before the testing phase.
 
-The predict_file parameter must be supplied.
+Notice that the predict_file parameter must be supplied in config.ini.
 
 Run:
 
@@ -102,6 +102,11 @@ python main.py
 Some results are shown as bellow and Row1-4 of the image are: SAR images, cloudy images, ground truth, the predicted results of HS2P.
 
 <div align="center"><img src="./read_images/results.png"></div>
+
+We further resample some large-scale scenes that are not included in the used dataset and utilize our fully trained model to generate large-scale cloud
+removal results that are shown below.
+
+<div align="center"><img src="./read_images/largescale.png"></div>
 
 
 ## 5. CONTACT
