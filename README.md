@@ -103,6 +103,7 @@ Some results are shown as bellow and Row1-4 of the image are: SAR images, cloudy
 
 <div align="center"><img src="./read_images/results.png"></div>
 
+
 We further resample some large-scale scenes that are not included in the used dataset and utilize our fully trained model to generate large-scale cloud
 removal results that are shown below.
 
